@@ -57,8 +57,8 @@ while(not correct_input):           # take input from user until correct input i
     initial_theta_config = float(input('enter starting orientation: '))
     final_x_config = float(input('enter final x coordinate: '))
     final_y_config = float(input('enter final y coordinate: '))
-    RPM1 = float(input('enter left wheel RPM (recommended 6 and 3): '))
-    RPM2 = float(input('enter right wheel RPM (recommended 6 and 3): '))
+    RPM1 = float(input('enter high RPM (recommended 6 and 3): '))
+    RPM2 = float(input('enter low RPM (recommended 6 and 3): '))
     clearance = float(input('enter clearance: '))
     if(obstacle(initial_x_config,initial_y_config) or obstacle(final_x_config,final_y_config)):
         print('invalid input')
